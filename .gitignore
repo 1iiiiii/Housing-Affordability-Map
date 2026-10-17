@@ -1,0 +1,15 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Secrets: the Census API key lives in .env, never in the repo
+.env
+
+# Raw downloads are re-created by code/01_fetch_census.ipynb
+data/raw/*.zip
+data/raw/cb_2024_us_county_500k/
+
+# macOS
+.DS_Store

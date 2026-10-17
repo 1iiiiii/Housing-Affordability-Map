@@ -1,0 +1,4 @@
+pair,corr
+d_ptir vs pct_pop,0.455
+d_ptir vs ptir_2019 (catch-up < 0 < pull-away),0.261
+d_ptir vs wfh_share_2024,0.22
