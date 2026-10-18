@@ -16,7 +16,7 @@ All data are downloaded by `code/01_fetch_census.ipynb` and cached in `data/raw/
 
 ## Replication
 
-| Notebook | Reads | Writes |
+| Notebook | Data | Output |
 |---|---|---|
 | `01_fetch_census.ipynb` | Census API, census.gov | `data/raw/cb_2024_us_county_500k.zip`, `data/raw/acs5_2019_county.csv`, `data/raw/acs5_2024_county.csv`, `data/raw/fetch_log.json` |
 | `02_build.ipynb` | `data/raw/` | `data/processed/counties.csv`, `data/processed/counties.gpkg`, `results/tables/headline.csv`, `extremes.csv`, `why_bins.csv`, `why_corr.csv`, `unmatched_geoids.csv` |
