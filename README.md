@@ -18,8 +18,8 @@ All data are downloaded by `code/01_fetch_census.ipynb` and cached in `data/raw/
 
 | Notebook | Reads | Writes |
 |---|---|---|
-| `01_fetch_census.ipynb` | Census API, census.gov | `data/raw/cb_2024_us_county_500k.zip` and its extracted folder, `data/raw/acs5_2019_county.csv`, `data/raw/acs5_2024_county.csv`, `data/raw/fetch_log.json` |
-| `02_build.ipynb` | `data/raw/` | `data/processed/counties.csv`, `data/processed/counties.gpkg` (EPSG:5070), `results/tables/headline.csv`, `extremes.csv`, `why_bins.csv`, `why_corr.csv`, `unmatched_geoids.csv` |
+| `01_fetch_census.ipynb` | Census API, census.gov | `data/raw/cb_2024_us_county_500k.zip`, `data/raw/acs5_2019_county.csv`, `data/raw/acs5_2024_county.csv`, `data/raw/fetch_log.json` |
+| `02_build.ipynb` | `data/raw/` | `data/processed/counties.csv`, `data/processed/counties.gpkg`, `results/tables/headline.csv`, `extremes.csv`, `why_bins.csv`, `why_corr.csv`, `unmatched_geoids.csv` |
 | `03_figures.ipynb` | `data/processed/`, `results/tables/` | `results/figures/fig1_map.png`, `results/figures/fig2_why.png` |
 
 price-to-income ratio = median home value ÷ median household income, in years of income
@@ -27,7 +27,7 @@ price-to-income ratio = median home value ÷ median household income, in years o
 ## Folder layout
 
 ```
-code/               notebooks in run order, plus plot_style.py (shared figure style)
+code/               
 data/raw/           downloads from the Census (boundaries are git-ignored; ACS CSVs are committed)
 data/processed/     merged county dataset, CSV and GeoPackage
 results/figures/    the two figures embedded in the post
